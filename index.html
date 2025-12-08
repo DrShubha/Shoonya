@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoonya Holistics - Blending Ancient Wisdom with Modern Therapy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%239b7ebd'/></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-wrapper">
+                <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#c06c84;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#6c5b7b;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#ffd89b;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ffa7c4;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#6bcf7f;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#4d96ff;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Outer Circle Background -->
+                    <circle cx="100" cy="100" r="95" fill="none" stroke="url(#grad1)" stroke-width="3" opacity="0.3"/>
+                    
+                    <!-- Lotus Petals (Base) -->
+                    <g id="lotus">
+                        <ellipse cx="100" cy="50" rx="25" ry="35" fill="url(#grad2)" opacity="0.8" transform="rotate(0 100 100)"/>
+                        <ellipse cx="100" cy="50" rx="25" ry="35" fill="url(#grad2)" opacity="0.7" transform="rotate(72 100 100)"/>
+                        <ellipse cx="100" cy="50" rx="25" ry="35" fill="url(#grad2)" opacity="0.8" transform="rotate(144 100 100)"/>
+                        <ellipse cx="100" cy="50" rx="25" ry="35" fill="url(#grad2)" opacity="0.7" transform="rotate(216 100 100)"/>
+                        <ellipse cx="100" cy="50" rx="25" ry="35" fill="url(#grad2)" opacity="0.8" transform="rotate(288 100 100)"/>
+                    </g>
+                    
+                    <!-- Mind Symbol (Brain-like curves) -->
+                    <g id="mind" opacity="0.9">
+                        <path d="M 80 100 Q 75 85 85 75 Q 95 70 100 75" fill="none" stroke="url(#grad3)" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M 120 100 Q 125 85 115 75 Q 105 70 100 75" fill="none" stroke="url(#grad3)" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="100" cy="100" r="18" fill="none" stroke="url(#grad3)" stroke-width="2"/>
+                    </g>
+                    
+                    <!-- Growth Arrows (Upward movement) -->
+                    <g id="growth" opacity="0.85">
+                        <path d="M 100 140 L 100 120" stroke="#ff9b54" stroke-width="2.5" stroke-linecap="round"/>
+                        <polygon points="100,115 95,125 105,125" fill="#ff9b54"/>
+                        
+                        <path d="M 85 145 L 85 130" stroke="#ffc17a" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+                        <polygon points="85,126 81,133 89,133" fill="#ffc17a" opacity="0.7"/>
+                        
+                        <path d="M 115 145 L 115 130" stroke="#ffc17a" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+                        <polygon points="115,126 111,133 119,133" fill="#ffc17a" opacity="0.7"/>
+                    </g>
+                    
+                    <!-- Decorative rings -->
+                    <circle cx="100" cy="100" r="70" fill="none" stroke="url(#grad1)" stroke-width="1.5" opacity="0.2"/>
+                </svg>
+                <span class="brand-name">Shoonya Holistics</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Shoonya Holistics</h1>
+            <p class="hero-subtitle">Blending Ancient Wisdom with Modern Therapeutic Science</p>
+            <p class="hero-description">Discover comprehensive support for your personal growth through the perfect fusion of evidence-based psychological therapy and timeless astrological principles</p>
+            <button class="cta-button">Explore Our Services</button>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <!-- Astrological Service -->
+                <div class="service-card astrological">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#ffa7c4" stroke-width="2"/>
+                            <circle cx="50" cy="20" r="6" fill="#ffa7c4"/>
+                            <circle cx="75" cy="35" r="5" fill="#ffb8d4"/>
+                            <circle cx="80" cy="60" r="5" fill="#ffb8d4"/>
+                            <circle cx="65" cy="78" r="5" fill="#ffa7c4"/>
+                            <circle cx="35" cy="80" r="5" fill="#ffb8d4"/>
+                            <circle cx="20" cy="65" r="5" fill="#ffb8d4"/>
+                            <circle cx="18" cy="35" r="5" fill="#ffa7c4"/>
+                            <circle cx="50" cy="50" r="8" fill="none" stroke="#c06c84" stroke-width="1.5" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    <h3>Astrological Guidance</h3>
+                    <p>Unlock cosmic insights through natal chart analysis, planetary transits, and astrological counseling to navigate life's cycles with clarity and purpose.</p>
+                    <ul class="service-features">
+                        <li>✨ Natal Chart Analysis</li>
+                        <li>✨ Transit Forecasting</li>
+                        <li>✨ Compatibility Reading</li>
+                    </ul>
+                </div>
+
+                <!-- Psychological Service -->
+                <div class="service-card psychological">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 50 20 Q 65 30 65 45 Q 65 55 55 60 L 55 70 Q 50 75 45 70 L 45 60 Q 35 55 35 45 Q 35 30 50 20 Z" fill="none" stroke="#4d96ff" stroke-width="2"/>
+                            <circle cx="45" cy="40" r="2.5" fill="#4d96ff"/>
+                            <circle cx="55" cy="40" r="2.5" fill="#4d96ff"/>
+                            <path d="M 45 50 Q 50 53 55 50" fill="none" stroke="#4d96ff" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M 35 75 L 30 90 M 45 85 L 45 95 M 55 85 L 55 95 M 65 75 L 70 90" stroke="#4d96ff" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Psychological Therapy</h3>
+                    <p>Evidence-based therapeutic approaches to address emotional challenges, cognitive patterns, and behavioral goals for lasting mental wellness.</p>
+                    <ul class="service-features">
+                        <li>🧠 CBT & Mindfulness</li>
+                        <li>🧠 Emotional Healing</li>
+                        <li>🧠 Life Coaching</li>
+                    </ul>
+                </div>
+
+                <!-- Blended Service -->
+                <div class="service-card blended">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="blendGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ff9b54;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#6bcf7f;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="35" fill="none" stroke="url(#blendGrad)" stroke-width="2"/>
+                            <circle cx="40" cy="45" r="12" fill="none" stroke="#ff9b54" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="60" cy="45" r="12" fill="none" stroke="#6bcf7f" stroke-width="1.5" opacity="0.7"/>
+                            <circle cx="50" cy="62" r="10" fill="none" stroke="url(#blendGrad)" stroke-width="1.5"/>
+                            <path d="M 40 57 L 50 62 L 60 57" fill="none" stroke="url(#blendGrad)" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Blended Holistic Service</h3>
+                    <p>The ultimate integration: combining cosmic wisdom with psychological insight for complete personal transformation and sustainable growth.</p>
+                    <ul class="service-features">
+                        <li>🌟 Integrated Guidance</li>
+                        <li>🌟 Holistic Transformation</li>
+                        <li>🌟 Personalized Wellness Plan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Shoonya Holistics</h2>
+                    <p class="about-intro">Founded by <strong>Dr. Shubha</strong>, Shoonya Holistics represents a visionary fusion of ancient cosmic wisdom and contemporary psychological science.</p>
+                    <p>Dr. Shubha recognized a profound need to bridge two powerful worlds: the timeless insights of astrological understanding and the evidence-based methods of cognitive therapy. This realization sparked the creation of Shoonya—a space where the celestial meets the scientific, where ancient traditions honor modern knowledge.</p>
+                    <p>Our holistic approach acknowledges that true wellness encompasses the mind, spirit, and soul. We believe that by combining the predictive and symbolic power of astrology with the therapeutic techniques of modern psychology, we create a comprehensive framework for personal growth that honors both the cosmos and the individual psyche.</p>
+                    <p class="mission">At Shoonya Holistics, we're committed to empowering individuals to understand themselves more deeply, align with their cosmic purpose, and cultivate lasting peace, clarity, and transformation.</p>
+                </div>
+                <div class="about-image">
+                    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="about-illustration">
+                        <defs>
+                            <radialGradient id="radGrad">
+                                <stop offset="0%" style="stop-color:#ffd89b;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#c06c84;stop-opacity:0.5" />
+                            </radialGradient>
+                        </defs>
+                        <circle cx="150" cy="150" r="140" fill="url(#radGrad)" opacity="0.3"/>
+                        <circle cx="150" cy="150" r="100" fill="none" stroke="#9b7ebd" stroke-width="2" opacity="0.4"/>
+                        <circle cx="150" cy="150" r="70" fill="none" stroke="#ff6b9d" stroke-width="2" opacity="0.5"/>
+                        <circle cx="150" cy="150" r="40" fill="none" stroke="#4d96ff" stroke-width="2" opacity="0.6"/>
+                        
+                        <!-- Lotus in center -->
+                        <ellipse cx="150" cy="110" rx="15" ry="25" fill="#ffa7c4" opacity="0.7" transform="rotate(0 150 150)"/>
+                        <ellipse cx="150" cy="110" rx="15" ry="25" fill="#ffa7c4" opacity="0.6" transform="rotate(72 150 150)"/>
+                        <ellipse cx="150" cy="110" rx="15" ry="25" fill="#ffa7c4" opacity="0.7" transform="rotate(144 150 150)"/>
+                        <ellipse cx="150" cy="110" rx="15" ry="25" fill="#ffa7c4" opacity="0.6" transform="rotate(216 150 150)"/>
+                        <ellipse cx="150" cy="110" rx="15" ry="25" fill="#ffa7c4" opacity="0.7" transform="rotate(288 150 150)"/>
+                        <circle cx="150" cy="150" r="8" fill="#ff6b9d"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <!-- Astrological Service Testimonial -->
+                <div class="testimonial-card astro-testimonial">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar avatar-1">RP</div>
+                        <div class="testimonial-info">
+                            <h4>Rajesh Patel</h4>
+                            <p class="testimonial-service">Astrological Guidance</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"My natal chart reading was incredibly insightful! Dr. Shubha's interpretation of my planetary positions helped me understand my life patterns and make better decisions. The timing guidance has been spot-on for my career transitions. Highly recommended!"</p>
+                    <p class="testimonial-date">Client since 2023</p>
+                </div>
+
+                <!-- Psychological Service Testimonial -->
+                <div class="testimonial-card psych-testimonial">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar avatar-2">SM</div>
+                        <div class="testimonial-info">
+                            <h4>Sophia Martinez</h4>
+                            <p class="testimonial-service">Psychological Therapy</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Working with Dr. Shubha through CBT and mindfulness practices transformed how I handle anxiety and stress. The practical tools she provided have become integral to my daily life. I feel more grounded and confident than ever before!"</p>
+                    <p class="testimonial-date">Client since 2024</p>
+                </div>
+
+                <!-- Blended Service Testimonial -->
+                <div class="testimonial-card blended-testimonial">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar avatar-3">AK</div>
+                        <div class="testimonial-info">
+                            <h4>Amelia Khan</h4>
+                            <p class="testimonial-service">Blended Holistic Service</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"The blended approach at Shoonya gave me a complete perspective on my life journey. Understanding my astrological timing combined with practical psychological strategies created a perfect roadmap for my personal transformation. Life-changing experience!"</p>
+                    <p class="testimonial-date">Client since 2023</p>
+                </div>
+
+                <!-- Additional Testimonial 1 -->
+                <div class="testimonial-card astro-testimonial">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar avatar-4">DG</div>
+                        <div class="testimonial-info">
+                            <h4>David Goyal</h4>
+                            <p class="testimonial-service">Astrological Guidance</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"The planetary transit analysis helped me navigate a challenging period in my life. Dr. Shubha's predictions were remarkably accurate, and her guidance gave me hope and direction during uncertain times. Grateful for this service!"</p>
+                    <p class="testimonial-date">Client since 2023</p>
+                </div>
+
+                <!-- Additional Testimonial 2 -->
+                <div class="testimonial-card psych-testimonial">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar avatar-5">NP</div>
+                        <div class="testimonial-info">
+                            <h4>Neha Prabhu</h4>
+                            <p class="testimonial-service">Psychological Therapy</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Dr. Shubha's compassionate approach to therapy helped me break free from limiting beliefs. Her life coaching sessions are empowering and practical. I've experienced genuine emotional healing and personal growth!"</p>
+                    <p class="testimonial-date">Client since 2024</p>
+                </div>
+
+                <!-- Additional Testimonial 3 -->
+                <div class="testimonial-card blended-testimonial">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar avatar-6">VJ</div>
+                        <div class="testimonial-info">
+                            <h4>Vikram Joshi</h4>
+                            <p class="testimonial-service">Blended Holistic Service</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"The combination of astrological insights and psychological support gave me a 360-degree understanding of myself. Dr. Shubha's holistic approach aligned my inner world with my outer goals. Exceptional service!"</p>
+                    <p class="testimonial-date">Client since 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Connect With Us</h3>
+                    <p>Ready to begin your journey towards holistic wellness and personal transformation? Reach out to us today!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>📧 Email</h4>
+                            <a href="mailto:shubha.pmishra@gmail.com">shubha.pmishra@gmail.com</a>
+                            <p class="contact-subtext">For service inquiries and consultations</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📍 Location</h4>
+                            <p>Serving clients globally</p>
+                            <p class="contact-subtext">In-person and online sessions available</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h4>🕐 Availability</h4>
+                            <p>By appointment</p>
+                            <p class="contact-subtext">Flexible scheduling for your convenience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interest</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="astrological">Astrological Guidance</option>
+                            <option value="psychological">Psychological Therapy</option>
+                            <option value="blended">Blended Holistic Service</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your interests and goals..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                    <p class="form-note">We'll respond within 24 hours</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Shoonya Holistics</h4>
+                    <p>Blending ancient wisdom with modern science for holistic personal growth.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Astrological Guidance</a></li>
+                        <li><a href="#services">Psychological Therapy</a></li>
+                        <li><a href="#services">Blended Holistic</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:shubha.pmishra@gmail.com">shubha.pmishra@gmail.com</a></p>
+                    <p>Founded by Dr. Shubha</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shoonya Holistics. All rights reserved. | Blending cosmic wisdom with therapeutic science.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
