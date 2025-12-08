@@ -118,7 +118,7 @@ contactForm.addEventListener('submit', async (e) => {
         submitBtn.disabled = false;
 
         // Open mailto if possible
-        const mailtoLink = `mailto:shubha.pmishra@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+        const mailtoLink = `mailto:shuubhapriya@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
         window.location.href = mailtoLink;
 
     } catch (error) {
@@ -320,7 +320,7 @@ if (localStorage.getItem('darkMode') === 'true') {
 
 console.log('%c🌟 Welcome to Shoonya Holistics 🌟', 'font-size: 20px; color: #ff6b9d; font-weight: bold;');
 console.log('%cBlending Ancient Wisdom with Modern Therapy', 'font-size: 14px; color: #9b7ebd; font-style: italic;');
-console.log('%cFounded by Dr. Shubha | Contact: shubha.pmishra@gmail.com', 'font-size: 12px; color: #4d96ff;');
+console.log('%cFounded by Dr. Shubha | Contact: shuubhapriya@gmail.com', 'font-size: 12px; color: #4d96ff;');
 
 // ============================================
 // SERVICE CARD INTERACTION

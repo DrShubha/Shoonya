@@ -48,7 +48,7 @@ A beautiful, fully functional website for Shoonya Holistics, blending ancient as
    - Smooth animations and hover effects
 
 6. **Contact Section**
-   - Contact information (agnostic location, email: shubha.pmishra@gmail.com)
+   - Contact information (agnostic location, email: shuubhapriya@gmail.com)
    - Comprehensive contact form
    - Service dropdown selector
    - Form validation
@@ -139,7 +139,7 @@ The contact form integrates with email by:
 3. Preparing a mailto link with pre-filled content
 4. Opening the user's default email client
 
-**Contact Email**: `shubha.pmishra@gmail.com`
+**Contact Email**: `shuubhapriya@gmail.com`
 
 ## ✨ Special Features
 
@@ -169,7 +169,7 @@ The contact form integrates with email by:
 ## 📞 Support
 
 For any inquiries or support requests, contact:
-- **Email**: shubha.pmishra@gmail.com
+- **Email**: shuubhapriya@gmail.com
 - **Founder**: Dr. Shubha
 
 ## 📜 License

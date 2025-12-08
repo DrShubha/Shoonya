@@ -102,7 +102,7 @@ Each service includes:
 - **Vikram Joshi** - Blended: "360-degree understanding of myself!"
 
 ### 📧 Contact Integration
-- **Email**: shubha.pmishra@gmail.com
+- **Email**: shuubhapriya@gmail.com
 - **Location**: Agnostic (serves clients globally)
 - **Form Features**:
   - Full name field
@@ -155,7 +155,7 @@ Edit `index.html`:
 - Modify about text: Look for `.about-text`
 
 ### Change Email Address
-Find `shubha.pmishra@gmail.com` in:
+Find `shuubhapriya@gmail.com` in:
 - `index.html` (Contact section)
 - `script.js` (Form handling)
 - Update with your preferred email
@@ -284,7 +284,7 @@ python3 -m http.server 8000
 ## 📞 Support
 
 **For Questions or Changes:**
-- Contact: shubha.pmishra@gmail.com
+- Contact: shuubhapriya@gmail.com
 - Founder: Dr. Shubha
 - Service: Holistic Personal Growth Counseling
 
