@@ -1,6 +1,6 @@
 # Shoonya Holistics - Website
 
-A beautiful, fully functional website for Shoonya Holistics, blending ancient astrological wisdom with modern psychological therapy for comprehensive personal growth.
+A beautiful, fully functional website for Shoonya Holistics, blending Ancient Wisdom with modern psychological therapy for comprehensive personal growth.
 
 ## 🌟 Features
 
@@ -27,7 +27,7 @@ A beautiful, fully functional website for Shoonya Holistics, blending ancient as
 
 3. **Services Section**
    - Three main service offerings:
-     - 🌙 **Astrological Guidance**: Natal charts, transit forecasting, compatibility readings
+   - 🌙 **Ancient Wisdom Guidance**: Natal charts, transit forecasting, compatibility readings
      - 🧠 **Psychological Therapy**: CBT, mindfulness, emotional healing, life coaching
      - ✨ **Blended Holistic Service**: Integrated cosmic and psychological wisdom
    - Interactive service cards with hover effects

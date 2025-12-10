@@ -13,7 +13,7 @@ A fully functional, beautiful website for Shoonya Holistics has been created wit
 - **Responsive Navigation**: Sticky header with mobile hamburger menu
 - **Hero Section**: Eye-catching landing area with call-to-action
 - **Services Section**: Three service offerings with detailed descriptions
-  - Astrological Guidance
+  - Ancient Wisdom Guidance
   - Psychological Therapy
   - Blended Holistic Service
 - **About Section**: Dr. Shubha's story and vision
@@ -94,10 +94,10 @@ Each service includes:
 
 ### 💬 Testimonials
 **6 Client Reviews** including:
-- **Rajesh Patel** - Astrological Guidance: "Natal chart reading was incredibly insightful!"
+- **Rajesh Patel** - Ancient Wisdom Guidance: "Natal chart reading was incredibly insightful!"
 - **Sophia Martinez** - Psychological Therapy: "Transformed how I handle anxiety!"
 - **Amelia Khan** - Blended Service: "Complete perspective on my life journey!"
-- **David Goyal** - Astrological: "Planetary transit analysis helped navigate challenges!"
+- **David Goyal** - Ancient Wisdom: "Planetary transit analysis helped navigate challenges!"
 - **Neha Prabhu** - Psychological: "Genuine emotional healing and personal growth!"
 - **Vikram Joshi** - Blended: "360-degree understanding of myself!"
 
@@ -253,7 +253,7 @@ git push origin main
 - Multi-language support
 - Dark mode toggle
 - Video testimonials
-- Interactive astrology tools
+- Interactive Ancient Wisdom tools
 - Meditation audio library
 
 ---
