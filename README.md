@@ -48,7 +48,7 @@ A beautiful, fully functional website for Shoonya Holistics, blending ancient as
    - Smooth animations and hover effects
 
 6. **Contact Section**
-   - Contact information (agnostic location, email: shuubhapriya@gmail.com)
+   - Contact information (agnostic location, email: shubha.pmishra@hotmail.com)
    - Comprehensive contact form
    - Service dropdown selector
    - Form validation
