@@ -474,6 +474,16 @@ body {
     background-clip: text;
 }
 
+.about-heading-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(155, 126, 189, 0.2);
+}
+
 .about-intro {
     font-size: 1.2rem;
     color: var(--soft-purple);
