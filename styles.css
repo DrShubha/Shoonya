@@ -478,12 +478,20 @@ body {
 
 .about-heading-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     height: auto;
-    margin-bottom: 30px;
+    margin: 20px auto 40px;
     display: block;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(155, 126, 189, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(155, 126, 189, 0.3), 0 5px 15px rgba(255, 107, 157, 0.1);
+    border: 3px solid rgba(255, 107, 157, 0.2);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.about-heading-image:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 20px 45px rgba(155, 126, 189, 0.4), 0 8px 20px rgba(255, 107, 157, 0.2);
 }
 
 .about-intro {
@@ -969,6 +977,12 @@ body {
     .about-content {
         max-width: 100%;
         text-align: left;
+    }
+
+    .about-heading-image {
+        max-width: 100%;
+        margin: 15px auto 30px;
+        border-radius: 15px;
     }
 
     .contact-content {
