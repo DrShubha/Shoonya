@@ -19,6 +19,7 @@
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#share-experience" class="nav-link">Share Experience</a></li>
                 <li><a href="https://shoonyaholistic.blogspot.com/" target="_blank" class="nav-link">Blog</a></li>
                 <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -263,6 +264,78 @@
                     <p class="testimonial-text">"The combination of Ancient Wisdom insights and psychological support gave me a 360-degree understanding of myself. The team of experts with Shubha and Mrityunjay Pandit Ji's holistic approach aligned my inner world with my outer goals. Exceptional service!"</p>
                     <p class="testimonial-date">Client since 2024</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Share Your Experience Section -->
+    <section id="share-experience" class="share-experience">
+        <div class="container">
+            <h2 class="section-title">Share Your Experience</h2>
+            <div class="share-content">
+                <div class="share-info">
+                    <h3>Your Voice Matters</h3>
+                    <p>We value your feedback and experiences with our services. Share your journey with Shoonya Holistics, and help others discover the transformative power of our holistic approach.</p>
+                    <div class="share-features">
+                        <div class="share-feature">
+                            <span class="share-icon">📝</span>
+                            <p>Your testimonial will be reviewed before publication</p>
+                        </div>
+                        <div class="share-feature">
+                            <span class="share-icon">✨</span>
+                            <p>Help others on their wellness journey</p>
+                        </div>
+                        <div class="share-feature">
+                            <span class="share-icon">🔒</span>
+                            <p>Your privacy and comfort are our priority</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="testimonial-form" action="https://formspree.io/f/xpznqrya" method="POST">
+                    <h3>Submit Your Testimonial</h3>
+                    <div class="form-group">
+                        <label for="testimonial-name">Full Name</label>
+                        <input type="text" id="testimonial-name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonial-email">Email Address</label>
+                        <input type="email" id="testimonial-email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonial-service">Service You Used</label>
+                        <select id="testimonial-service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="ancient-wisdom">Ancient Wisdom Guidance</option>
+                            <option value="psychological">Psychological Therapy</option>
+                            <option value="blended">Blended Holistic Service</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonial-rating">Your Rating</label>
+                        <select id="testimonial-rating" name="rating" required>
+                            <option value="">Rate your experience</option>
+                            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                            <option value="4">⭐⭐⭐⭐ Very Good</option>
+                            <option value="3">⭐⭐⭐ Good</option>
+                            <option value="2">⭐⭐ Fair</option>
+                            <option value="1">⭐ Poor</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonial-text">Your Experience</label>
+                        <textarea id="testimonial-text" name="testimonial" rows="6" required placeholder="Share your experience with Shoonya Holistics. What transformation have you experienced? How has our service impacted your life? Please be specific and authentic..."></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="permission" required>
+                            <span class="checkmark"></span>
+                            I give permission for my testimonial to be published on the website after review
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-button">Share Your Experience</button>
+                    <p class="form-note">Your testimonial will be reviewed and may be published on our website</p>
+                </form>
             </div>
         </div>
     </section>

@@ -719,6 +719,98 @@ body {
 }
 
 /* ============================================
+   SHARE YOUR EXPERIENCE SECTION
+   ============================================ */
+
+.share-experience {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, var(--light-cream) 0%, var(--white) 100%);
+}
+
+.share-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.share-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--dark-text);
+}
+
+.share-info > p {
+    color: var(--dark-text);
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.share-features {
+    display: grid;
+    gap: 20px;
+}
+
+.share-feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(155, 126, 189, 0.1);
+}
+
+.share-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    text-align: center;
+}
+
+.share-feature p {
+    margin: 0;
+    color: var(--dark-text);
+    font-weight: 500;
+}
+
+/* Testimonial Form */
+.testimonial-form {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: var(--soft-shadow);
+    animation: slideInRight 0.6s ease-out;
+}
+
+.testimonial-form h3 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: var(--dark-text);
+}
+
+.checkbox-group {
+    margin-bottom: 25px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--dark-text);
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary-pink);
+}
+
+/* ============================================
    CONTACT SECTION
    ============================================ */
 
@@ -983,6 +1075,15 @@ body {
         max-width: 100%;
         margin: 15px auto 30px;
         border-radius: 15px;
+    }
+
+    .share-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .testimonial-form {
+        padding: 30px;
     }
 
     .contact-content {
