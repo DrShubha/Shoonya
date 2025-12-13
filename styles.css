@@ -672,6 +672,10 @@ body {
     background: linear-gradient(135deg, #ff6b9d, #6bcf7f);
 }
 
+.avatar-7 {
+    background: linear-gradient(135deg, #c06c84, #ff9b54);
+}
+
 .testimonial-info h4 {
     font-size: 1.1rem;
     margin-bottom: 3px;
