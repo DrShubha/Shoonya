@@ -274,7 +274,7 @@ git push origin main
 - [ ] Site loads in under 3 seconds
 - [ ] Favicon displaying
 - [ ] Meta tags and title correct
-- [ ] Email address verified (shuubhapriya@gmail.com)
+- [ ] Email address verified (shubha.pmishra@hotmail.com)
 
 ---
 
@@ -515,7 +515,7 @@ Once live:
 - Cloudflare: developers.cloudflare.com
 
 ### Need Help?
-- Email: shuubhapriya@gmail.com
+- Email: shubha.pmishra@hotmail.com
 - Check README.md for more info
 
 ---

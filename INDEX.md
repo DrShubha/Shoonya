@@ -260,7 +260,7 @@ See STYLE_GUIDE.md for full palette
 
 ## 📧 CONTACT INFORMATION
 
-**Email**: shuubhapriya@gmail.com
+**Email**: shubha.pmishra@hotmail.com
 **Founder**: Dr. Shubha
 **Services**: Holistic personal growth counseling
 **Location**: Global (online & in-person)
@@ -365,7 +365,7 @@ Your Shoonya Holistics website is:
 
 ## 📞 CONTACT & SUPPORT
 
-**Website Contact**: shuubhapriya@gmail.com
+**Website Contact**: shubha.pmishra@hotmail.com
 **Founder**: Dr. Shubha
 **Founder's Message**: "Blending ancient wisdom with modern therapy for holistic personal growth"
 

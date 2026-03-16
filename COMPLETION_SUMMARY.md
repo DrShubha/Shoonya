@@ -171,7 +171,7 @@ Small     (<600px)    ✅ Touch-optimized
 ## 📧 Contact Information
 
 ```
-Email: shuubhapriya@gmail.com
+Email: shubha.pmishra@hotmail.com
 Location: Agnostic (Global service)
 Founder: Dr. Shubha
 Mission: Blending Ancient Wisdom with Modern Therapy
@@ -373,7 +373,7 @@ Your website is:
 4. **DEPLOYMENT.md** - Hosting and deployment
 
 ### Contact
-- **Email**: shuubhapriya@gmail.com
+- **Email**: shubha.pmishra@hotmail.com
 - **Founder**: Dr. Shubha
 - **Purpose**: Holistic personal growth counseling
 

@@ -139,7 +139,7 @@ The contact form integrates with email by:
 3. Preparing a mailto link with pre-filled content
 4. Opening the user's default email client
 
-**Contact Email**: `shuubhapriya@gmail.com`
+**Contact Email**: `shubha.pmishra@hotmail.com`
 
 ## ✨ Special Features
 
@@ -169,7 +169,7 @@ The contact form integrates with email by:
 ## 📞 Support
 
 For any inquiries or support requests, contact:
-- **Email**: shuubhapriya@gmail.com
+- **Email**: shubha.pmishra@hotmail.com
 - **Founder**: Dr. Shubha
 
 ## 📜 License
