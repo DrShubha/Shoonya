@@ -186,6 +186,13 @@ body {
     overflow: hidden;
 }
 
+.hero-bg {
+  background-image: url("assets/shoonya-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .hero-content {
     text-align: center;
     z-index: 10;
